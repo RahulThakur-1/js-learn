@@ -28,4 +28,21 @@ const myFunction = function(){             // Function
     console.log("Hello World !")
 }
 
+//  **************** MEMORY **************
+// Stack (Primitive), Heap (Non-primitive)
 
+let myName = "Rahul"
+let newname = myName
+newname = "Guglu"
+ console.log(myName);
+ console.log(newname);
+
+ let UserOne = {
+    email: "userone@gmail.com",
+    UPI: "user@okhdfcbank"
+ }
+
+ let UserTwo = UserOne
+ UserTwo.email = "Rahul@google.com"
+ console.log(UserOne.email)
+ console.log(UserTwo.email)
