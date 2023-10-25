@@ -28,3 +28,8 @@ const gameName = new String('Rahul-Thakur-maharaja')
 // console.log(url.replace('%20', '-'));
 
 console.log(gameName.split('-'))
+
+// ----------------- Conversion ----------
+const score = 400
+let newScore = score.toString()
+console.log(newScore.split(''))
