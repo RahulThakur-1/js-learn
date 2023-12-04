@@ -46,10 +46,35 @@ const users = [
     },
 ]
 
-console.log(users[1].email);
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(users[1].email);
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const cource = {
+    courcename : "learning JS",
+    price : "999",
+    courceInstructor : "rahul",
+}
+
+// cource.courceInstructor
+
+const {courceInstructor: instructor} = cource // destructuring
+console.log(instructor);
+
+// {
+//     name: "rahul",
+//     courcename: "js learn",
+//     price: "free",
+// } -----------------Json format
+
+
+// [
+//     {},
+//     {},
+//     {},
+// ]      ---------- Json fromat
